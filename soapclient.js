@@ -10,6 +10,7 @@
 function SOAPClientParameters()
 {
     var _pl = new Array();
+    var x=2;
     this.add = function(name, value)
     {
         _pl[name] = value;
